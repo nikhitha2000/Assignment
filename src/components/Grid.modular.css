@@ -1,0 +1,45 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .robot-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .robot-image.north {
+    transform: rotate(0deg);
+  }
+  
+  .robot-image.east {
+    transform: rotate(90deg);
+  }
+  
+  .robot-image.south {
+    transform: rotate(180deg);
+  }
+  
+  .robot-image.west {
+    transform: rotate(270deg);
+  }
+  
